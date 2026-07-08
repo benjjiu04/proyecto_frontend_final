@@ -1,0 +1,12 @@
+$main_color: rgb(199, 137, 208);
+$advertencia: rgb(255, 217, 0);
+$danger: rgba(185, 28, 28, 0.748);
+$main_button_color: rgb(72, 148, 198);
+
+:export{
+
+    main_color: $main_color;
+    advertencia: $advertencia;
+    danger: $danger;
+    main_button_color: $main_button_color;
+}

@@ -1,0 +1,10 @@
+.bootstrap_scoped {
+
+  @import "../../node_modules/bootstrap/scss/bootstrap";
+
+
+ .carousel-control-prev-icon,.carousel-control-next-icon  {
+
+  filter: invert(100%);
+ }
+}
