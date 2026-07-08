@@ -3,11 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://benjjiu04.github.io/proyecto_frontend_final/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "oxlint",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "bun run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "bcryptjs": "^3.0.3",
@@ -26,6 +29,7 @@
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^6.0.3",
     "babel-plugin-react-compiler": "^1.0.0",
+    "gh-pages": "^6.3.0",
     "oxlint": "^1.72.0",
     "sass": "^1.101.0",
     "vite": "^8.1.3"
